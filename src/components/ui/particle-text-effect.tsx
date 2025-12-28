@@ -138,7 +138,7 @@ interface ParticleTextEffectProps {
     words?: string[]
 }
 
-const DEFAULT_WORDS = ["How are you?", "Jeevith", "Tata", "How can I help you?"]
+const DEFAULT_WORDS = ["How are you?", "Jeevith", "Tata", "How can I help you?" , "i am jeevith "]
 
 export function ParticleTextEffect({ words = DEFAULT_WORDS }: ParticleTextEffectProps) {
     const canvasRef = useRef<HTMLCanvasElement>(null)
